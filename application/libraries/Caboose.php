@@ -27,10 +27,10 @@ class Caboose {
             'template' => 'confirm'
         ),
         'jrating' => array(
-                'css' => 'jRating.jquery.css',
-                'js' => 'jRating.jquery.js',
-                'template' => 'jrating'
-                ),
+            'css' => 'jRating.jquery.css',
+            'js' => 'jRating.jquery.js',
+            'template' => 'jrating'
+        ),
      );
     // provide for any fields they need. this should be indexed [component][field]
     var $fields = array();
